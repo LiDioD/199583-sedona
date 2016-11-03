@@ -7,7 +7,7 @@
   </head>
   <body>
       <header class="main-header">
-        <div class="container">
+        <div class="container clearfix">
             <nav class="main-navigation">
                 <ul>
                     <li>
@@ -16,9 +16,7 @@
                     <li>
                         <a href="#">Фото и видео</a>
                     </li>
-                    <li>
-                        <a href="#"><img src="img/logo.png"  alt="Sedona" width="67" height="55"></a>
-                    </li>
+                    <a href="#"><img src="img/logo.png"  alt="Sedona" width="138" height="70"></a>
                     <li>
                         <a href="#">Карта штата</a>
                     </li>
@@ -31,20 +29,22 @@
       </header>
       <main class="container">
           <div class="main-title"></div>
-          <h2 class="second-title">СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
-          <p class="">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          <div class="second-title">
+              <h2>СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
+              <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          </div>
           <section class="features">
-            <div class="features-block block-1"> 
-                  <div class="features-item item-1">
+            <div class="features-block block-1 clearfix"> 
+                  <div class="features-item-left item-1">
                       <b class="features-name">НАСТОЯЩИЙ ГОРОДОК</b>
                       <p>— №1 —</p>
                       <p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
                   </div>
-                  <div class="features-item-image img-1">
-                      <img src="img/main-img-1.jpg" alt="Седона-Городок" width="512" height="257">
+                  <div class="features-item-image-right img-1">
+                      <img src="img/main-img-1.jpg" alt="Седона-Городок" width="800" height="256">
                   </div>
             </div> 
-            <div class="features-block block-2"> 
+            <div class="features-block block-2 clearfix"> 
                 <div class="features-item item-hotels">
                   <b class="features-name">Жилье</b>
                   <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
@@ -58,17 +58,17 @@
                   <p>Не только китайского, но и местного производства!</p>
                 </div>
             </div>
-            <div class="features-block block-3"> 
-                <div class="features-item item-2">
+            <div class="features-block block-3 clearfix"> 
+                <div class="features-item-right item-2">
                   <b class="features-name">ТАМ ЕСТЬ Мост дьявола</b>
                   <p>— №2 —</p>
                   <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>  
                 </div>
-                <div class="features-item-image img-2">
-                    <img src="img/main-img-2.jpg" alt="Мост Дьявола" width="512" height="257">
+                <div class="features-item-image-left img-2">
+                    <img src="img/main-img-2.jpg" alt="Мост Дьявола" width="800" height="256">
                 </div>
             </div>
-            <div class="features-block block-3"> 
+            <div class="features-block block-3 clearfix"> 
                 <div class="features-item item-3">
                   <b class="features-name">НЕБОЛЬШАЯ ПЛОЩАДЬ</b>
                   <p>— №3 —</p>
@@ -86,10 +86,6 @@
                 </div>
             </div>
           </section>
-          <div class="map">
-              <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.1356257622!2d-111.8301580428903!3d34.85444386550809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1477373950739" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>-->
-              <img src="img/map.jpg" alt="Карта Седоны" width="768" height="380">
-          </div>
           <div class="hotel-order">
               <b>ЗАИНТЕРЕСОВАЛИСЬ?</b>
               <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
@@ -110,9 +106,13 @@
                   <button class="btn search">Найти</button>
               </form>
           </div>
+          <div class="map">
+              <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.1356257622!2d-111.8301580428903!3d34.85444386550809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1477373950739" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+              <img src="img/map.jpg" alt="Карта Седоны" width="768" height="380">
+          </div>
       </main>
       <footer class="main-footer">
-        <div class="container">
+        <div class="container clearfix">
             <section class="footer-hashtag">
                 <a href="#">#VisitSedona</a>
             </section>

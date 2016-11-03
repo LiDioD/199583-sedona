@@ -7,7 +7,7 @@
   </head>
   <body>
       <header class="main-header">
-        <div class="container">
+        <div class="container clearfix">
             <nav class="main-navigation">
                 <ul>
                     <li>
@@ -16,9 +16,7 @@
                     <li>
                         <a href="#">Фото и видео</a>
                     </li>
-                    <li>
-                        <a href="#"><img src="img/logo.png"  alt="Sedona" width="67" height="55"></a>
-                    </li>
+                    <a href="#"><img src="img/logo.png"  alt="Sedona" width="138" height="70"></a>
                     <li>
                         <a href="#">Карта штата</a>
                     </li>
@@ -30,7 +28,7 @@
           </div>
       </header>
       <main class="container">
-        <div class="filter">
+        <div class="filter clearfix">
             <form action="#" method="post" oninput="#">
                 <div class="infra">
                     <h3 class="infra-title">Инфраструктура:</h3>
@@ -76,10 +74,10 @@
               </form>
           </div>
           <div class="sort">
-              <div class="sort-found">
+              <div class="sort-item found">
                   <h2 class="sort-found-title">Найдено: 3</h2>
-              </div>
-              <div class="sort-type">
+              </div><!--
+           --><div class="sort-item type">
                   <b class="sort-type-title">Сортировка:</b>
                   <ul class="sort-type-list">
                       <li>
@@ -92,14 +90,14 @@
                           <a href="#">По рейтингу</a>
                       </li>
                   </ul>
-              </div>
-              <div class="sort-buttons">
-                  <button class="btn sort-up"></button> 
-                  <button class="btn sort-down"></button>
+              </div><!--
+           --><div class="sort-item buttons">
+                  <a href="#" class="btn sort-up"></a> 
+                  <a href="#" class="btn sort-down"></a>
               </div>
           </div>
-          <div class="results">
-              <article class="result-1">
+          <div class="results clearfix">
+              <article class="result result-1">
                   <div class="result-img">
                       <img src="img/hotel-1.jpg" width="135" height="90">
                   </div>
@@ -115,7 +113,7 @@
                       <p class="hotel-rate">Рейтинг: 8,5</p>
                   </div>
               </article>
-              <article class="result-2">
+              <article class="result result-2">
                   <div class="result-img">
                       <img src="img/hotel-2.jpg" width="135" height="90">
                   </div>
@@ -131,7 +129,7 @@
                       <p class="hotel-rate">Рейтинг:8,9</p>
                   </div>
               </article>
-              <article class="result-3">
+              <article class="result result-3">
                   <div class="result-img">
                       <img src="img/hotel-3.jpg" width="135" height="90">
                   </div>
@@ -150,7 +148,7 @@
           </div>
       </main>
       <footer class="main-footer">
-        <div class="container">
+        <div class="container clearfix">
             <section class="footer-hashtag">
                 <a href="#">#VisitSedona</a>
             </section>

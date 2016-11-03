@@ -1,9 +1,23 @@
+html, body {
+    min-width: 1200px;
+    min-height: 933px;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size: 14px;
     line-height: 21px;
     color: #333333;
     font-weight: normal;
     font-family: "PTSans", "Arial", sans-serif;    
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
 }
 
 h2 {
@@ -18,4 +32,247 @@ h3 {
     line-height: 21px;
     color: #FFFFFF;
     font-weight: bold;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-navigation {
+    float: left;
+    width: 1200px;
+    min-height: 56px;
+}
+
+.main-title {
+    width: 1200px;
+    min-height: 509px;
+    margin-bottom: 63px;
+}
+
+.second-title {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.features-item-left {
+    float: left;
+    width: 400px;
+    min-height: 256px;
+}
+
+.features-item-image-right {
+    float: right;
+    width: 800px;
+    min-height: 256px;
+}
+
+.features-item {
+    float: left;
+    width: 400px;
+    min-height: 330px;
+}
+
+.features-item-right {
+    float: right;
+    width: 400px;
+    min-height: 256px;
+}
+
+.features-item-image-left {
+    float: left;
+    width: 800px;
+    min-height: 256px;
+}
+
+.hotel-order {
+    min-height: 290px;
+}
+
+.map {
+    min-height: 473px;
+}
+
+.infra {
+    float: left;
+    width: 312px;
+    min-height: 218px;
+}
+
+.hotel-type {
+    float: left;
+    width: 288px;
+    min-height: 218px;
+}
+
+.cost {
+    float: right;
+    width: 600px;
+    min-height: 218px;
+}
+
+.sort-item {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.result {
+    float: left;
+    width: 1200px;
+    min-height: 152px;
+}
+
+.result-img {
+    float: left;
+    width: 217px;
+    min-height: 90px;
+}
+
+.result-hotel {
+    float: left;
+    width: 583px;
+    min-height: 152px;
+}
+
+.result-rate {
+    float: right;
+    width: 400px;
+    min-height: 152px;
+}
+
+.main-footer {
+    margin-top: 0;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.footer-hashtag {
+    float: left;
+    width: 400px;
+    min-height: 120px;
+}
+
+.footer-social {
+    float: left;
+    width: 400px;
+    min-height: 120px;
+}
+
+.footer-copyright {
+    float: right;
+    width: 400px;
+    min-height: 120px;
+}
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+body {
+  padding: 3px;
+}
+
+body > *,
+body > * > *,
+body > * > * > * {
+  position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before {
+  content: "";
+  position: absolute;
+
+  height: 24px;
+  padding: 2px 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Courier New", monotype;
+  white-space: nowrap;
+}
+
+body > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+
+body > *::before {
+  color: white;
+
+  background: green;
+}
+
+body > * > * {
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+body > * > *::before {
+  color: white;
+
+  background: rgb(255, 45, 82);
+}
+
+body > * > * > * {
+  background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
+
+}
+
+body > * > * > *::before {
+  color: black;
+
+  background: rgb(234, 255, 45);
+}
+
+.main-header::before {
+  content: ".main-header";
+}
+
+.container::before {
+  content: ".container";
+}
+
+.main-header .container::before {
+  top: auto;
+  bottom: -28px;
+}
+
+.main-navigation::before {
+  content: ".main-navigation";
+}
+
+.user-block::before {
+  content: ".user-block";
+}
+
+.index-logo::before {
+  content: ".index-logo";
+}
+
+.features::before {
+  content: ".features";
+  top: -28px;
+}
+
+.features-item::before {
+  content: ".features-item";
 }
