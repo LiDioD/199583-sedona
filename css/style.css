@@ -42,12 +42,10 @@ h3 {
 .main-navigation {
     float: left;
     width: 1200px;
-    min-height: 56px;
 }
 
 .main-title {
     width: 1200px;
-    min-height: 509px;
     margin-bottom: 63px;
 }
 
@@ -59,57 +57,41 @@ h3 {
 .features-item-left {
     float: left;
     width: 400px;
-    min-height: 256px;
 }
 
 .features-item-image-right {
     float: right;
     width: 800px;
-    min-height: 256px;
 }
 
 .features-item {
     float: left;
     width: 400px;
-    min-height: 330px;
 }
 
 .features-item-right {
     float: right;
     width: 400px;
-    min-height: 256px;
 }
 
 .features-item-image-left {
     float: left;
     width: 800px;
-    min-height: 256px;
-}
-
-.hotel-order {
-    min-height: 290px;
-}
-
-.map {
-    min-height: 473px;
 }
 
 .infra {
     float: left;
     width: 312px;
-    min-height: 218px;
 }
 
-.hotel-type {
+.hotel-type-select {
     float: left;
     width: 288px;
-    min-height: 218px;
 }
 
 .cost {
     float: right;
     width: 600px;
-    min-height: 218px;
 }
 
 .sort-item {
@@ -117,30 +99,26 @@ h3 {
     vertical-align: middle; 
 }
 
-.result {
+/*.result {
     float: left;
     width: 1200px;
-    min-height: 152px;
 }
 
 .result-img {
     float: left;
     width: 217px;
-    min-height: 90px;
 }
 
 .result-hotel {
     float: left;
     width: 583px;
-    min-height: 152px;
 }
 
 .result-rate {
     float: right;
     width: 400px;
-    min-height: 152px;
 }
-
+*/
 .main-footer {
     margin-top: 0;
     padding-top: 36px;
@@ -150,19 +128,16 @@ h3 {
 .footer-hashtag {
     float: left;
     width: 400px;
-    min-height: 120px;
 }
 
 .footer-social {
     float: left;
     width: 400px;
-    min-height: 120px;
 }
 
 .footer-copyright {
     float: right;
     width: 400px;
-    min-height: 120px;
 }
 /*======================================
  Системное оформление - не изменять
